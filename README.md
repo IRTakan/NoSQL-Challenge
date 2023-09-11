@@ -17,6 +17,7 @@ Found and displayed one document in the establishments collection using find_one
 and prepared the collection for use.
 
 -- Part 2: Update the Database
+
 NoSQL_setup_starter.ipynb was used for this section of the challenge.
 
 The magazine editors made some requests for modifications for the database before I could perform any queries or analysis for them. 
@@ -74,8 +75,6 @@ This field also includes non-numeric values such as 'Pass', where 'Pass' means t
 I had to coerce non-numeric values to nulls during the database setup before converting ratings to integers.
 The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.
 I Used the following questions to explore the database, and find the answers, so I could provide them to the magazine editors.
-
-Unless otherwise stated, for each question:
 
 - I Used count_documents to display the number of documents contained in the result.
 
