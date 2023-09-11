@@ -64,6 +64,7 @@ Some of the number values are stored as strings, when they should be stored as n
 Used update_many to convert RatingValue to integer numbers.
 
 -- Part 3: Exploratory Analysis
+
 Eat Safe, Love has specific questions they wanted me to answer, which would help them find the locations they wished to visit and avoid.
 
 The NoSQL_analysis_starter.ipynb was also used for this section of the challenge.
